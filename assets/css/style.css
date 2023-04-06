@@ -1,3 +1,5 @@
+/* universal selector border-box makes the browser account for padding and margin when specifying 
+and element's width and height  */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -33,12 +35,12 @@ nav {
     font-size: 20px;
 }
 
-/* navbar  change selector from .header div ul to nav ul */
+/* navbar  changed selector from .header div ul to nav ul */
 nav ul {
     list-style-type: none;
 }
 
-/* navbar change selector from .header div ul li to nav ul li */
+/* navbar changed selector from .header div ul li to nav ul li */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -53,6 +55,7 @@ p {
     font-size: 16px;
 }
 
+/* background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -78,6 +81,7 @@ p {
     margin-left: 20px;
 }
 
+/* benefits sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -137,6 +141,7 @@ p {
     max-width: 150px;
 }
 
+/* seo section */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -146,6 +151,7 @@ p {
     color: #ffffff;
 }
 
+/* reputation management section */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -155,6 +161,7 @@ p {
     color: #ffffff;
 }
 
+/* marketing section */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
